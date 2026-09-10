@@ -81,3 +81,27 @@ The sequences in `sample.fasta` are synthetic and are included only to demonstra
 **Heidi Spantzel**  
 Incoming undergraduate at the University of California, San Diego  
 Interests: computational biology, machine learning, biomedical AI, and cybersecurity
+
+## Example output
+
+Running:
+
+```bash
+python sequence_explorer.py sample.fasta
+Loaded 3 sequence(s).
+
+Sequence: sample_sequence_1
+Length: 48 bases
+GC content: 56.25%
+Nucleotide counts:
+  A: 10
+  C: 12
+  G: 15
+  T: 11
+
+Top 3-mers:
+  GCG: 5
+  CGT: 3
+  TAG: 3
+  AGC: 3
+  CGA: 3
